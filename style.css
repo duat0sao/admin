@@ -3,19 +3,22 @@ html, body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    height: 100vh ;
 }
 
-
-.flex-div{
-    display: flex;
-    align-items: center;
-}
 /*NAV BAR*/
 
 #navTop{
     height: 60px;
     background: rgba(10, 10, 10, 0.4) 
+}
+#navTopP{
+    height: 50px;
+    background: rgba(10, 10, 10, 0.925) 
+}
+
+#navBottom{
+    height: 50px;
+    font-size: 13px;
 }
 
 /* LEFT */
@@ -27,26 +30,48 @@ html, body{
 .nav-middle{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .nav-middle .search-bar{
-    display: inline-block;
-  width: 1000px;
+    margin: 0 0.5rem 0 0.5rem;
+    width: 100%;
 }
 }
 /* RIGHT */
 .nav-right {
     display: flex;
-    align-items: center;
-}
-.carousel-caption{
-    position: absolute;
-    width: 1140px;
-    top: 50%; /*cách điểm trên 50% */
-    left: 50%;/*cách điểm trái 50% */
-    transform: translate(-50%, -50%); /*căn chỉnh về giữa */
 }
 
+/* MAIN */
 
-.slide{
-    position: fixed;
+.home .carousel-item{
+	min-height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+.home .carousel-item:before{
+	content: '';
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: -1;
+}
+.home .carousel-item .container{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+/* ADMIN CSS */
+.admin-home .ad-background{
+		min-height: 100vh;
+	background-position: center;
+	background-size: cover;
+	position: relative;
 }
