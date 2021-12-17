@@ -38,7 +38,7 @@
                         <h1 class="text-white">Find your inspiration.</h1>
                         <p class="text-white">Join the Flickr community, home to tens of billions of photos and 2
                             million groups.</p>
-                        <button type="button" class="btn btn-light btn-lg">Start for free</button>
+                        <a class="btn btn-light btn-lg" role="button" href="signup.php">Start for free</a>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image:url('img/house-decoration.jpg')">
@@ -46,7 +46,7 @@
                         <h1 class="text-white">Find your inspiration.</h1>
                         <p class="text-white">Join the Flickr community, home to tens of billions of photos and 2
                             million groups.</p>
-                        <button type="button" class="btn btn-light btn-lg">Start for free</button>
+                        <a class="btn btn-light btn-lg" role="button" href="signup.php">Start for free</a>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image:url('img/house.jpg')">
@@ -54,7 +54,7 @@
                         <h1 class="text-white">Find your inspiration.</h1>
                         <p class="text-white">Join the Flickr community, home to tens of billions of photos and 2
                             million groups.</p>
-                        <button type="button" class="btn btn-light btn-lg">Start for free</button>
+                        <a class="btn btn-light btn-lg" role="button" href="signup.php">Start for free</a>
                     </div>
                 </div>
             </div>

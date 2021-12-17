@@ -11,11 +11,6 @@ html, body{
     height: 60px;
     background: rgba(10, 10, 10, 0.4) 
 }
-#navTopP{
-    height: 50px;
-    background: rgba(10, 10, 10, 0.925) 
-}
-
 #navBottom{
     height: 50px;
     font-size: 13px;
@@ -67,11 +62,4 @@ html, body{
 	top:50%;
 	transform: translate(-50%,-50%);
 	text-align: center;
-}
-/* ADMIN CSS */
-.admin-home .ad-background{
-		min-height: 100vh;
-	background-position: center;
-	background-size: cover;
-	position: relative;
 }
