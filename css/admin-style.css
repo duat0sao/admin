@@ -1,24 +1,7 @@
-/* background-color:f5d9d5 */
-
 body{
     background-color: #F8F9FA;
     font-family: 'Roboto', sans-serif;
 }
-
-
-
-#headingGroup h1 {
-    font-weight: 100;
-    font-size: 4rem;
-}
-
-@media (max-width:1200px){
-    #headingGroup h1{
-        font-weight: 100;
-        font-size: 3.5rem;
-    }
-}
-
 
 .logo{
     width:80px;
@@ -26,7 +9,7 @@ body{
 }
 
 .avatar{
+    height: 35px;
     width: 35px;
     border-radius: 50%;
-    /* //margin-right: 50px; */
 }
