@@ -13,7 +13,7 @@ if (isset($_POST['submit']) && isset($_FILES['my_image'])) {
     $error = $_FILES['my_image']['error'];
 
     if ($error === 0) {
-        if ($img_size > 200000) {
+        if ($img_size > 150000) {
             $em = "Sorry, your file is too large.";
             header("Location: upload-photo.php?error=$em");
         } else {
@@ -30,7 +30,7 @@ if (isset($_POST['submit']) && isset($_FILES['my_image'])) {
                 $sql = "INSERT INTO images(image_url) 
 				        VALUES('$new_img_name')";
                 mysqli_query($conn, $sql);
-                header("Location:../admin.php");
+                header("Location:../you.php");
             } else {
                 $em = "You can't upload files of this type";
                 header("Location: upload-photo.php?error=$em");
